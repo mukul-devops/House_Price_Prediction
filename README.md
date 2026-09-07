@@ -108,8 +108,7 @@ Artifact Storage:Joblib (Frozen Serialization)
 
 
 ```
-<details>
-<summary>📂 <strong>Click to view Repository Layout</strong></summary>
+
 
 
 house-price-prediction/
