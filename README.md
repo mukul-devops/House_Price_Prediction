@@ -50,9 +50,7 @@ Five regression algorithms were systematically benchmarked on identical cross-va
 ## 🔄 End-to-End System Architecture
 
 
-```
 
-```
                            RAW INPUT (80 Features)
                                       │
                                       ▼
@@ -82,9 +80,7 @@ Five regression algorithms were systematically benchmarked on identical cross-va
    │  e.g., "$243,500"    │                     │ Local Attribution Plot │
    └──────────────────────┘                     └────────────────────────┘
 
-```
 
-```
 
 ---
 
@@ -100,7 +96,7 @@ Rather than treating gradient boosting as an uninterpretable system, AmesValue A
 ## 🛠️ Technical Stack
 
 
-```
+
 
 Runtime:         Python 3.10+
 Core ML:         Scikit-learn • XGBoost
@@ -110,12 +106,12 @@ Visual Analytics:Matplotlib • Seaborn
 Serving & UI:    Streamlit Community Cloud
 Artifact Storage:Joblib (Frozen Serialization)
 
-```
+
 
 <details>
 <summary>📂 <strong>Click to view Repository Layout</strong></summary>
 
-```bash
+
 house-price-prediction/
 ├── app.py                          # Streamlit application entry point & inference logic
 ├── requirements.txt                # Production dependency declarations
@@ -126,7 +122,7 @@ house-price-prediction/
 └── notebooks/
     └── house_price_prediction.ipynb # Complete research, EDA, tuning & validation notebook
 
-```
+
 
 ---
 
@@ -134,7 +130,7 @@ house-price-prediction/
 
 ### 1. Clone & Set Up Environment
 
-```bash
+
 git clone [https://github.com/](https://github.com/)<your-username>/house-price-prediction.git
 cd house-price-prediction
 
@@ -142,16 +138,16 @@ cd house-price-prediction
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-```
+
 
 ### 2. Install Dependencies & Launch
 
-```bash
+
 pip install --upgrade pip
 pip install -r requirements.txt
 streamlit run app.py
 
-```
+
 
 ---
 
@@ -163,7 +159,7 @@ streamlit run app.py
 
 Focus Areas: Applied Machine Learning • Predictive Systems • Production MLOps
 
-```
+
 
 ***
 
@@ -173,4 +169,4 @@ Focus Areas: Applied Machine Learning • Predictive Systems • Production MLOp
 * **Streamlined Pipeline Diagram:** Cleaned up the ASCII flow so an engineering manager or recruiter can see the handling of data leakage, transformation, and SHAP output in 5 seconds.
 * **Foldable Directory Structure:** Wrapped the file tree in an HTML `<details>` toggle so it doesn't take up vertical real estate.
 
-```
+
