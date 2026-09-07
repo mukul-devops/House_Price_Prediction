@@ -1,4 +1,3 @@
-```markdown
 # 🏠 AmesValue AI — End-to-End Property Valuation Engine
 
 <p align="left">
